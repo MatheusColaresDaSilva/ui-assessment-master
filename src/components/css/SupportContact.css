@@ -1,0 +1,56 @@
+  .support-contact-wrapper {
+    display: flex;
+    align-items: center; 
+ }
+
+ .sidebar {
+    flex: 1;
+    min-width: 50%; 
+    max-width: 100%; 
+  }
+   
+  .textAccount{
+    font-size: 18px; 
+    margin: 0;
+  }
+
+ .support-contact{
+    flex: 1;
+    min-width: 100%; 
+    max-width: 50%; 
+  }
+  
+  .title {
+    margin-bottom: 20px;
+    font-size: 15px;
+    text-align: left;
+  }
+  
+  .contact-info {
+    display: flex;
+    align-items: center;
+  }
+  
+  .support-image {
+    width: 60px;
+    height: 60px;
+    margin-right: 20px;
+    border-radius: 5px;
+  }
+  
+  .contact-details {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .support-name {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .contact-methods {
+    font-size: 14px;
+  }
+ 
