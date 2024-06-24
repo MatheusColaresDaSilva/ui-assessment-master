@@ -1,7 +1,7 @@
 import React from 'react';
-import SupportContact from './components/SupportContact';
-import Panel from './components/Panel';
-import './account-overview.css';
+import SupportContact from './SupportContact';
+import Panel from './Panel';
+import './css/account-overview.css';
 
 export const AccountOverview = ({data}) => {
   console.log(data);

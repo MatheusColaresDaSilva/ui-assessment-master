@@ -22,7 +22,7 @@ const SupportContact = ({ props }) => {
       <div className="support-contact">
         <h1 className="title">YOUR FEEFO SUPPORT CONTACT</h1>
         <div className="contact-info">
-          <img src={dogSupport} alt="Support" className="support-image" />
+          <img id="imgSupport" src={dogSupport} alt="Support" className="support-image" />
           <div className="contact-details">
             <div className="support-name">{props.name}</div>
             <div className="contact-methods">

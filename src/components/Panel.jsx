@@ -34,21 +34,21 @@ const Panel = ({ props }) => {
         <div className="row">
           <div className="column">
             <span className="salesText boldText ">             
-                <FontAwesomeIcon icon={faUpload} color='blue' /> Sales</span>
+                <FontAwesomeIcon icon={faUpload} color='blue' title="My Icon"/> Sales</span>
           </div>
           <div className="column">
-            <FontAwesomeIcon icon={faInfoCircle} />
+            <FontAwesomeIcon icon={faInfoCircle} color='gray'/>
           </div>
         </div>
         <div className="row">
-            <span className="updateText">You had <span className="boldText">{props.uploads} uploads</span> and <span className="boldText">{linesAdded}</span> lines added</span>
+            <span className="updateText">You had <span id="uploadVal"className="boldText">{props.uploads} uploads</span> and <span id="linesVal" className="boldText">{linesAdded}</span> lines added</span>
         </div>
       </div>
       <div className="second-block">
         <div className="sub-block">
           <div className="row">
             <div className="column">
-                <span className="customPercentText boldText">{uploadSucess}%</span>
+                <span id="uploadValPercet" className="customPercentText boldText">{uploadSucess}%</span>
             </div>
             <div className="column">
             </div>
@@ -60,7 +60,7 @@ const Panel = ({ props }) => {
         <div className="sub-block">
           <div className="row">
             <div className="column">
-                <span className="customPercentText boldText">{linesSaved}%</span>
+                <span id="linesValPercet" className="customPercentText boldText">{linesSaved}%</span>
             </div>
             <div className="column">
             </div>
